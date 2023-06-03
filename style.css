@@ -85,7 +85,7 @@ input {
   background-image: url(./images/icon-person.svg);
   margin-bottom: 1rem;
   width: 285px;
-  margin-top: 62px;
+  margin-top: 30px;
   margin-left: -160px;
 }
 
@@ -133,11 +133,19 @@ input {
 }
 
 .peopleLabel {
+  position: relative;
   display: flex;
   justify-content: space-between;
 }
+.peopleNum {
+  position: absolute;
+  width: 186px;
+}
 
 .error {
+  width: 128px;
+  margin-left: 186px;
+  position: absolute;
   color: red;
   display: none;
 }
